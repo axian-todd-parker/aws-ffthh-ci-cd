@@ -31,7 +31,7 @@ function createSprites(numberOfSprites) {
         var velY = game.rnd.integerInRange(-200, 200);
 
         var s = sprites.create(initX, initY, 'spinner');
-        s.z = game.rnd(integerInRange(1, 1000));
+        s.z = game.rnd,integerInRange(1, 1000);
         s.body.velocity.set(velX, velY);
         s.scale.setTo(1.4, 1.4);
     }
