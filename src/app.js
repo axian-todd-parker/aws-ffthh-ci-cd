@@ -37,6 +37,6 @@ function createSprites(numberOfSprites) {
     }
 
     sprites.setAll('body.collideWorldBounds', true);
-    sprites.setAll('body.bounce.x', 1);
-    sprites.setAll('body.bounce.y', 1);
+    sprites.setAll('body.bounce.x', 2);
+    sprites.setAll('body.bounce.y', .5);
 }
